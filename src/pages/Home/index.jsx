@@ -29,7 +29,7 @@ export function Home() {
       const data = await response.json();
       setUser({ name: data.name, avatar: data.avatar_url });
     }
-
+    //teste
     fetchData();
   }, []);
 
